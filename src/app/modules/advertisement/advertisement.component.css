@@ -1,0 +1,41 @@
+.adtext {
+    z-index: 999;
+    margin-top: -123px;
+    width: 100%;
+}
+
+.text-heading {
+    font-size: 2.5em;
+    font-weight: 500;
+    word-spacing: 0.05em;
+    height: 60px;
+    overflow: hidden;
+}
+
+.shop-link a {
+    word-spacing: 0.05em;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: black;
+}
+
+.adbox {
+    width: 485px;
+    height: 460px;
+}
+
+.adImage {
+    max-width: 485px;
+    max-height: 460px;
+    width: 100%;
+}
+
+.row.dj.border {
+    box-shadow: 0 0 8px 0 #f3f3f3;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.inline-grid {
+    display: inline-grid;
+}

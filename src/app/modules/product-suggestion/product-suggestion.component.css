@@ -1,0 +1,25 @@
+.c-btn-dark{
+    line-height: 2.5;
+    font-size: .8em;
+    font-weight: 500;
+    border-radius: 0;
+}
+
+.v-center{
+    align-items: center;
+}
+
+.page-bg{
+    background-image: url(../../../assets/images/textBoxBackground.png);
+}
+
+.c-border-bottom{
+    border-top: 2px solid #000000 !important;
+}
+
+.desc{
+    color: #121212;   
+   font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+}

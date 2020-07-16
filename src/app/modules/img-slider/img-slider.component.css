@@ -1,0 +1,15 @@
+.item-name,
+.item-price {
+    font-size: medium;
+    font-weight: 500;
+    color: #000;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.bg-light {
+    background-color: #f3f3f3 !important;
+}

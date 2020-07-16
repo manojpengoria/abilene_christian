@@ -1,0 +1,144 @@
+
+
+/*FOOTER*/
+
+footer {
+    background: #121212;
+    color: white;
+    
+    /* margin-top: 20px; */
+}
+
+footer .footer-pad a {
+    font-size: 12px;
+    transition-duration: 0.2s;
+    color: #ccc;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: #fa944b;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #ffffff;
+}
+
+.footer-middle {
+    padding-top: 1em;
+    color: white;
+}
+
+.footer-pad h4 {
+    color: #f1f2ed;
+    font-size: 12px;
+    /* font-weight: 400; */
+    padding: 0 0 5px 0;
+    letter-spacing: 0.8px;
+}
+
+.copyright {
+    background-color: #1a1a1a;
+}
+
+
+/* contact us css */
+
+.footer-contact-box {
+    background-image: url(../../../assets/images/footerMapBg.png);
+    max-width: 330px;
+    display: grid;
+    min-height: 360px;
+}
+
+.preheaderWelcomeMsg {
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contactus {
+    padding: 30px 0;
+    text-align: center;
+    background-image: url(../../../assets/images/footer.jpg);
+    height: 112px;
+}
+
+.footer-contact-box .list-title {
+    color: #f1f2ed;
+    margin-bottom: 7px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.footer-contact-box .list-dec {
+    font-size: 11px;
+    color: #f1f2ed;
+    font-weight: 700;
+    color: #ccc;
+}
+
+.footer-contact-box .list-dec span {
+    font-size: 11px;
+    color: #f1f2ed;
+    font-weight: 100;
+    color: #ccc;
+    float: right;
+}
+
+.footer-contact-box .store-event a {
+    font-size: 13px;
+    font-weight: 700;
+    color: #ccc;
+}
+
+.mainfooter .breadcrub,
+.mainfooter ol {
+    background-color: white !important;
+    margin: 0;
+    font-size: 12px;
+}
+
+.mainfooter .breadcrumb .breadcrumb-item a {
+    text-decoration: none;
+    color: #212121 !important;
+    font-size: 12px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #e2610b;
+    content: ".";
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.footer-note {
+    padding: 0.75rem 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-dark {
+    background-color: black;
+    border-radius: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.bg-dark {
+    background-color: black !important;
+}

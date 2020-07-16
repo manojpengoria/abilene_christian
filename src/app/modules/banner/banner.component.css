@@ -1,0 +1,90 @@
+.promoBarText {
+    line-height: 70px;
+    color: white;
+    font-family: monospace;
+    font-size: 28px;
+    letter-spacing: -2px;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.heading {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: #212121 !important;
+    display: block;
+    font-family: inherit;
+    /* letter-spacing: 0; */
+    padding: 15px;
+    font-weight: 700;
+}
+
+.block-list a {
+    text-decoration: none;
+}
+
+.block-list span {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    background-color: #4f2170;
+    display: grid;
+    height: 100px;
+    align-items: center;
+}
+
+
+/* bottom submit form css */
+
+.sform-box {
+    display: grid;
+    padding: 0px 30px;
+}
+
+.sform-heading {
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: -1px;
+}
+
+.sform-offer {
+    font-size: 30px;
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.sform-input input {
+    font-style: italic;
+    font-size: 11px;
+    color: rgb(116, 116, 116);
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: inset 0 0 3px #ccc;
+}
+
+.sform-input input:focus {
+    border: 1.2px solid black;
+}
+
+.sform-input button {
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    width: 207px;
+    height: 47px;
+    border-radius: 20px;
+    border: solid 2px #000;
+}
+
+.sform-btext p {
+    font-size: 11px;
+    letter-spacing: 0.46px;
+    color: #7c7c7c;
+}

@@ -1,0 +1,19 @@
+<div class="row my-2">
+    <div class="col-12 text-center">
+        <h3 class="heading">BEST SELLERS</h3>
+    </div>
+</div>
+<owl-carousel-o id="slide1" [options]="customOptions">
+    <ng-container *ngFor="let slide of slidesStore; let id = index">
+        <ng-template carouselSlide [id]="id">
+            <div class="row text-center py-2 bg-light">
+                <div class="col-12">
+                    <img [routerLink]="['/product']" [src]="slide" class="item-imag img-fluid" alt="one"
+                        title="slide" />
+                </div>
+                <div class="col-12 item-name">Champion Dad Jersey Tee</div>
+                <div class="col-12 item-price">$64.98</div>
+            </div>
+        </ng-template>
+    </ng-container>
+</owl-carousel-o>
